@@ -1,6 +1,7 @@
 import photo from "../assets/photo.png";
 import Banner from "../composants/Banner/Banner";
 import Card from "../composants/Card/Card";
+import Contact from "../composants/Contact/Contact";
 import "./index.css";
 
 export default function Index() {
@@ -28,7 +29,7 @@ export default function Index() {
             <section className="contact" id="ancre-contact">
                 <div className="wrapper">
                     <h2>contact</h2>
-                    
+                    <Contact />
                 </div>
             </section>
         </>
