@@ -1,0 +1,17 @@
+/* ----- HEADER -----*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.menu {
+    padding-right: 16px;
+    transition: color 0.2s ease; 
+}
+
+.menu:hover {
+    color: #ff7d75;
+}

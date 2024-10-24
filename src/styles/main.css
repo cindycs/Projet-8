@@ -1,0 +1,46 @@
+/****** General ***********/
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+:root {
+    --bg1-color: #fee2ca;
+    --bg2-color: #85b6c5;
+    --bg3-color: #fcc7b2;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+body {
+    margin:0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 40px;
+    letter-spacing: 0.2rem;
+    padding-top: 24px;
+    font-variant: small-caps;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid var(--bg2-color);
+
+}
