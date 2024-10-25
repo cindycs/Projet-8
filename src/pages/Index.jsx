@@ -17,7 +17,7 @@ export default function Index() {
                         <h2>à propos</h2>
                         <div className="presentation">
                             <div className="photo">
-                            <img src={photo} alt="photo de Cindy" />
+                                <img src={photo} alt="photo de Cindy" />
                             </div>
                             <div className="description">
                                 <p>Bienvenue dans mon jardin où j’expose toutes mes réalisations qui ont poussé au fil du temps. Le fil qui m’animait autrefois dans mon métier de couturière est aujourd’hui une toile numérique où je tisse des sites web.</p>
