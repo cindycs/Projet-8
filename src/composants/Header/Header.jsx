@@ -1,29 +1,29 @@
-import { NavLink } from 'react-router-dom'; //Extension de Link
 import './header.css';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Header() {
     return (
         <header>
             <h1>Cindy SCHAAL - Portfolio</h1>
             <nav>
-                <NavLink 
-                    to="#ancre-realisations" 
+                <HashLink 
+                    smooth to="/#ancre-realisations"
                     className="menu"
                 >
                     Réalisations
-                </NavLink>
-                <NavLink 
-                    to="#ancre-a-propos" 
+                </HashLink>
+                <HashLink 
+                    smooth to="#ancre-a-propos" 
                     className="menu"
                 >
                     A propos
-                </NavLink>
-                <NavLink 
-                    to="#ancre-contact" 
+                </HashLink>
+                <HashLink 
+                    smooth to="#ancre-contact" 
                     className="menu"
                 >
                     Contact
-                </NavLink>
+                </HashLink>
             </nav>
         </header>
     )
