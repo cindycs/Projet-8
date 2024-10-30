@@ -13,6 +13,12 @@ export default function Header() {
                     Réalisations
                 </HashLink>
                 <HashLink 
+                    smooth to="#ancre-competences" 
+                    className="menu"
+                >
+                    Compétences
+                </HashLink>
+                <HashLink 
                     smooth to="#ancre-a-propos" 
                     className="menu"
                 >

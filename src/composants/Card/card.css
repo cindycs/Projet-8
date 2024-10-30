@@ -21,6 +21,11 @@
     position: relative;
     display: block;
     height: 100%;
+    transition: opacity 0.2s ease; 
+}
+
+.card-real a:hover {
+    opacity: 0.5;
 }
 
 .card-real a p {
@@ -29,11 +34,12 @@
     left: 0;
     width: 100%;
     margin: 0;
-    padding: 12px;
+    padding: 16px 12px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: var(--bg2-color); 
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'calibri', sans-serif;
     box-sizing: border-box;
 }
 

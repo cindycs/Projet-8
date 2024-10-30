@@ -41,6 +41,11 @@
     font-size: 1.2em;
 }
 
+/* ----- COMPETENCES ------*/
+.competences h2{
+    text-align: center;
+}
+
 /* -------- CONTACT -------*/
 
 .contact {

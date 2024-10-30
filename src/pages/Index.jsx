@@ -2,6 +2,7 @@ import photo from "../assets/photo.png";
 import Banner from "../composants/Banner/Banner";
 import Card from "../composants/Card/Card";
 import Contact from "../composants/Contact/Contact";
+import Skill from "../composants/Skill/Skill";
 import "./index.css";
 
 export default function Index() {
@@ -11,6 +12,12 @@ export default function Index() {
             <section className="realisations" id="ancre-realisations">
                 <h2>mes réalisations</h2>
                 <Card />
+            </section>
+            <section className="competences" id="ancre-competences">
+                <div className="wrapper">
+                    <h2>mes compétences</h2>
+                    <Skill />
+                </div>
             </section>
             <section className="a-propos" id="ancre-a-propos">
                     <div className="wrapper">
