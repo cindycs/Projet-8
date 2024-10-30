@@ -11,7 +11,7 @@ export default function Card() {
             <div className="list-card">
                 {realisationsList.map((realisation) => (
                     <div className="card-real" key={ realisation.id }>
-                        <Link to={ realisation.lien }>
+                        <Link to={ realisation.lien } target="_blank">
                             <img src={ realisation.cover } alt="aperçu du site de l'atelier Miewl" className='img-real'/>
                             <p>{ realisation.title}</p>
                         </Link>
