@@ -15,7 +15,7 @@ function App() {
       <div className='container'>
         <Header />
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/Projet-8" element={<Index />} />
         </Routes>
       </div>
     </div>
