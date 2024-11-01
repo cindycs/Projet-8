@@ -4,7 +4,7 @@
 		"title": "Site e-commerce avec Wordpress",
 		"desc": "Réalisation du site l'atelier Miewl, un site e-commerce qui présente les créations d'une couturière, réalisé avec Wordpress ",
 		"difficulte": "La réalisation de ce site a été un vrai challenge car je n'avais jamais fait de site e-commerce avec Wordpress. L'utilisation de Woocomerce a été nécessaire mais aussi la mise en place des systèmes de paiement (Paypal, paiement par carte...)",
-        "imagePath": "./Projet-8/src/assets/realisations/latelier_miewl.jpg",
+        "imagePath": "/Projet-8/src/assets/realisations/latelier_miewl.jpg",
 		"link": "https://lateliermiewl.fr"
     },
     {
@@ -12,7 +12,7 @@
 		"title": "Site vitrine avec Wordpress",
 		"desc": "Réalisation du site pour le gite Léopoldine, un site vitrine qui présente le gite, réalisé avec Wordpress ",
 		"difficulte": "La plus grosse diffculté sur ce site aura été de réussir à mettre en avant du mieux possible le contenu à travers les photos tout en donnant les informations importante sur gite. La mise en place d'un calendrier qui soit simple d'utilisation pour sa propriétaire a aussi été un challenge.",
-		"imagePath": "./Projet-8/src/assets/realisations/gite_leopoldine.jpg",
+		"imagePath": "/Projet-8/src/assets/realisations/gite_leopoldine.jpg",
         "link": "https://giteleopoldine.fr"
     },
     {
@@ -20,15 +20,15 @@
 		"title": "Réalisation d'un front-end en React",
 		"desc": "Réalisation du front-end d'un site internet avec comme contrainte l'utilisation de React",
 		"difficulte": "La difficulté majeure dans ce projet a été l'utilisation de React vue que c'était la première fois que je l'utilisais. L'apprentissage d'un framework est toujours source d'apprentissage mais aussi de contrainte pour mettre en place une idée qu'on a en tête.",
-		"imagePath": "./Projet-8/src/assets/realisations/kasa.jpg",
+		"imagePath": "/Projet-8/src/assets/realisations/kasa.jpg",
         "link": "#"
     },
     {
 		"id": "4",
-		"title": "Réalisation d'un front-end en HTML/CSS",
+		"title": "Réalisation d'un front-end en html/css",
 		"desc": "Réalisation du site Booki en HTML/CSS en responsive design ",
 		"difficulte": "Projet de formation qui m'a remise sur chemin de la programmation, sans grande difficulté si ce n'est l'utilisation du flex qui m'était alors inconnu avant ce projet.",
-		"imagePath": "./Projet-8/src/assets/realisations/booki.jpg",
+		"imagePath": "/Projet-8/src/assets/realisations/booki.jpg",
         "link": "https://cindycs.github.io/Projet-2/"
     },
     {
@@ -36,7 +36,7 @@
 		"title": "Transformation d'un site statique en dynamique avec Javascript",
 		"desc": "Projet qui demander à utiliser le javascript pour dynamiser le site internet qui était entièrement statique",
 		"difficulte": "Ce projet a necéssité d'approfondir mes connaissances en Javascript pour pouvoir mettre en place toutes les contraintes liés au projet.",
-		"imagePath": "./Projet-8/src/assets/realisations/sophie_bluel.jpg",
+		"imagePath": "/Projet-8/src/assets/realisations/sophie_bluel.jpg",
         "link": "https://lateliermiewl.fr"
     },
     {
@@ -44,7 +44,7 @@
 		"title": "Optimisation d'un site web",
 		"desc": "L'ojectif de ce projet était d'optimiser un site, que ce soit en terme d'accéssibilité ou encore de référencement",
 		"difficulte": "Un projet riche en connaissance pour apprendre à bien maitriser les structures de site, apprendre les bases du référencement naturel, l'utilisation d'Opengraph ou encore des twitterCard, mais aussi des outils comme lighthouse ou Wave",
-		"imagePath": "./Projet-8/src/assets/realisations/nina_carducci.jpg",
+		"imagePath": "/Projet-8/src/assets/realisations/nina_carducci.jpg",
         "link": "https://cindycs.github.io/Projet-4/"
     }
 ]
