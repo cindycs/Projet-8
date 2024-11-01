@@ -7,25 +7,25 @@ export default function Header() {
             <h1>Cindy SCHAAL - Portfolio</h1>
             <nav>
                 <HashLink 
-                    smooth to="/#ancre-realisations"
+                    smooth to="/Projet-8/#ancre-realisations"
                     className="menu"
                 >
                     Réalisations
                 </HashLink>
                 <HashLink 
-                    smooth to="#ancre-competences" 
+                    smooth to="/Projet-8/#ancre-competences" 
                     className="menu"
                 >
                     Compétences
                 </HashLink>
                 <HashLink 
-                    smooth to="#ancre-a-propos" 
+                    smooth to="/Projet-8/#ancre-a-propos" 
                     className="menu"
                 >
                     A propos
                 </HashLink>
                 <HashLink 
-                    smooth to="#ancre-contact" 
+                    smooth to="/Projet-8/#ancre-contact" 
                     className="menu"
                 >
                     Contact

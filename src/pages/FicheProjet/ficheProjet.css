@@ -3,22 +3,21 @@
     height: 100vh;
 }
 
-.btn-return {
+.btn-nav {
     margin-top: 40px;
     margin-bottom: 20px;
     cursor: pointer;
-    width: 150px;
     background-color: var(--bg2-color);
     color: #fff;
     font-size: 1.2em;
     letter-spacing: 0.1rem;
     font-variant: small-caps;
     transition: background-color 0.3s ease; 
-    padding: 12px;
+    padding: 12px 36px;
     border: 0px;
 }
 
-.btn-return:hover {
+.btn-nav:hover {
     background-color: #23607f;
 }
 
@@ -39,4 +38,46 @@
 
 .desc-projet {
     width: 50%;
+}
+
+.desc-projet h3 {
+    color: #23607f;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    font-variant: small-caps;
+    margin-top: 0px;
+}
+
+.desc-projet h4 {
+    color: #23607f;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.desc-projet p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+
+@media (max-width: 1024px) {
+
+    
+}
+
+@media (max-width: 767.98px) {
+
+    .projet {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .img-projet, .desc-projet {
+        width: 100%;
+    }
+
+    .background-fiche {
+        height: 100%;
+    }
 }

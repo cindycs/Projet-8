@@ -10,11 +10,12 @@
 .card-real {
     width: 380px;
     height: 380px;
-    background-color: #fff;
     border-radius: 3px;
-    border: 5px solid #d5d5d5;
+    /*border: 1px solid var(--bg2-color);*/
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     overflow: hidden;
     position: relative;
+    background-color: #f3f3f3;
 }
 
 .card-real a {
@@ -25,7 +26,7 @@
 }
 
 .card-real a:hover {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .card-real a p {
