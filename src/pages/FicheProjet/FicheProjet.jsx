@@ -19,7 +19,7 @@ export default function FicheProjet() {
                 <section className="projet">
                     <div className="img-projet">
                         <img 
-                            src={image} 
+                            src={real.imagePath} 
                             alt="" 
                         />
                     </div>
