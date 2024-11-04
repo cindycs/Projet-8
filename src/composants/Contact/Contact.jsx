@@ -33,26 +33,34 @@ export default function Contact() {
         onSubmit={handleSubmit}
       >
         {({ isSubmitting }) => (
-          <Form className='form-contact'> 
-            <div>
-              <Field type="text" name="name" id="name" className="input-form" placeholder="Votre nom.." />
-              <ErrorMessage name="name" component="div" className="error" />
-            </div>
-
-            <div>
-              <Field type="email" name="email" id="email" className="input-form" placeholder="Votre e-mail.." />
-              <ErrorMessage name="email" component="div" className="error" />
-            </div>
-
-            <div>
-              <Field as="textarea" name="message" id="message" rows="5" className="textarea-form" placeholder="Votre message.." />
-              <ErrorMessage name="message" component="div" className="error" />
-            </div>
-
-            <button className='btn-submit' type="submit" disabled={isSubmitting}>
-              {isSubmitting ? 'Envoi en cours...' : 'Envoyer'}
-            </button>
-          </Form>
+          <Form 
+          className='form-contact' 
+          action="https://formsubmit.io/send" 
+          method="POST" 
+          data-formsubmit-email="schaal.cindy@gmail.com"
+       >
+          <input type="hidden" name="_formsubmit_id" value="true" />
+          
+          <div>
+             <Field type="text" name="name" id="name" className="input-form" placeholder="Votre nom.." />
+             <ErrorMessage name="name" component="div" className="error" />
+          </div>
+       
+          <div>
+             <Field type="email" name="email" id="email" className="input-form" placeholder="Votre e-mail.." />
+             <ErrorMessage name="email" component="div" className="error" />
+          </div>
+       
+          <div>
+             <Field as="textarea" name="message" id="message" rows="5" className="textarea-form" placeholder="Votre message.." />
+             <ErrorMessage name="message" component="div" className="error" />
+          </div>
+       
+          <button className='btn-submit' type="submit" disabled={isSubmitting}>
+             {isSubmitting ? 'Envoi en cours...' : 'Envoyer'}
+          </button>
+       </Form>
+       
         )}
       </Formik>
     </div>
