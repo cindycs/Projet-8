@@ -1,0 +1,25 @@
+.list-skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-skills img {
+    height: 330px;
+}
+
+.list-skills h3 {
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #23607f;
+    letter-spacing: 0.2rem;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.link-skills {
+    display: block;
+    text-align: center;
+    margin : 24px 0px;
+    color: #ff7d75;
+    font-size: 1.5rem;
+}
