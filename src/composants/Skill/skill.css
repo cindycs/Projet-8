@@ -16,10 +16,50 @@
     text-align: center;
 }
 
+.mind-map{
+    display: flex;
+    justify-content: center;
+    margin : 32px 0px;
+}
+
 .link-skills {
     display: block;
     text-align: center;
-    margin : 24px 0px;
-    color: #ff7d75;
+    padding: 12px;
     font-size: 1.5rem;
+    width: 150px;
+    background-color: #ff7d75;
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: 0.1rem;
+    font-variant: small-caps;
+    cursor: pointer;
+    transition: background-color 0.2s ease; 
+}
+
+.link-skills:hover {
+    background-color: var(--bg3-color);
+}
+
+@media (max-width: 1024px) {
+
+    .list-skills{
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    
+    .list-skills img {
+        height: 300px;
+    }  
+}
+
+@media (max-width: 767.98px) {
+
+    .list-skills{
+        justify-content: center;
+    }
+    
+    .list-skills img {
+        height: 250px;
+    }  
 }

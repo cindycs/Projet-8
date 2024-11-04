@@ -21,7 +21,9 @@ export default function Header() {
                 <img src={framework} alt="compétences framework"/>
             </div>
         </section>
-        <Link className="link-skills" to="https://miro.com/app/board/uXjVLNzjaPk=/" target="_blank">Lien vers mon mind-map</Link>
+        <div className='mind-map'>
+            <Link className="link-skills" to="https://miro.com/app/board/uXjVLNzjaPk=/" target="_blank">mind-map</Link>
+        </div>
         </>
     )
 }
