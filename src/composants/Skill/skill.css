@@ -41,6 +41,37 @@
     background-color: var(--bg3-color);
 }
 
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* mouvement vers le haut */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* position finale */
+    }
+  }
+  
+  .fade-in-up {
+    opacity: 0; 
+    animation: fadeInUp 0.6s ease-out forwards; 
+  }
+
+  /* Délais pour chaque élément */
+.fade-in-up:nth-child(1) {
+    animation-delay: 0s; 
+  }
+  
+  .fade-in-up:nth-child(2) {
+    animation-delay: 0.2s; /
+  }
+  
+  .fade-in-up:nth-child(3) {
+    animation-delay: 0.4s; 
+  }
+  
+/* ------- MEDIA QUERIES --------*/
+
 @media (max-width: 1024px) {
 
     .list-skills{
