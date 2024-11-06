@@ -1,7 +1,5 @@
 import './card.css';
 import { Link } from "react-router-dom";
-import lateliermiewl from "../../assets/realisations/latelier_miewl.jpg";
-import giteLeopoldine from "../../assets/realisations/gite_leopoldine.jpg";
 import realisationsList from "../../data/realisations.json";
 
 
