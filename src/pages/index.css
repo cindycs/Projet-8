@@ -18,6 +18,7 @@
     background-color: var(--bg2-color);
     padding-top: 30px;
     padding-bottom: 84px;
+    line-height: 28px;
 }
 
 .a-propos h2 {
