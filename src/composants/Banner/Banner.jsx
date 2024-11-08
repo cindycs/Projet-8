@@ -6,6 +6,7 @@ import soleil from '../../assets/banner/soleil.png'
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 
 
+
 export default function Banner() {
 
     return (
@@ -19,13 +20,13 @@ export default function Banner() {
                 </Parallax>
                 <img className="bg-banner" src={fond} alt="Description de l'image" />      
                 <Parallax
-                    translateX={[20, -20]} 
+                    translateX={[10, -20]} 
                     className="cloud-parallax"
                 >
                     <img src={nuage} alt="Description de l'image" id="cloud"/>
                 </Parallax>
                 <Parallax
-                    translateX={[15, -5]} 
+                    translateX={[5, -10]} 
                     className="brume-parallax"
                 >
                     <img src={brume} alt="Description de l'image" id="brume"/>

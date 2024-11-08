@@ -46,3 +46,9 @@
     height: 100%;
     overflow: hidden;
 }
+
+@media (max-width: 767.98px) {
+    .banniere {
+        display: none;
+    }
+}

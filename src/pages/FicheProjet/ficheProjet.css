@@ -1,6 +1,6 @@
 .background-fiche {
     background-color: var(--bg1-color);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .btn-nav {
@@ -52,6 +52,7 @@
 .list-badge {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     padding: 0px;
 }
@@ -77,6 +78,9 @@
 
 @media (max-width: 1024px) {
 
+    .background-fiche {
+        height: 100%;
+    }
     
 }
 
