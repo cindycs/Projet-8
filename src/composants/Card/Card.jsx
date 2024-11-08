@@ -2,8 +2,12 @@ import './card.css';
 import { Link } from "react-router-dom";
 import realisationsList from "../../data/realisations.json";
 
-
-
+/**
+ * Le composant `Card` représente une section affichant une liste de réalisations sous forme de cartes.
+ * Chaque carte comprend une image cliquable et un titre, avec un lien vers une page de détail pour chaque réalisation.
+ *
+ * @returns {JSX.Element} Un élément JSX représentant une liste de cartes de réalisations.
+ */
 
 export default function Card() {
     return (

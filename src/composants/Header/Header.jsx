@@ -4,6 +4,13 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
+/**
+ * Le composant `Header` représente l'en-tête principal de l'application, incluant le nom du portfolio
+ * et une navigation avec des liens pour accéder aux différentes sections de la page (Réalisations, Compétences, A propos, Contact).
+ * Il inclut également un menu mobile qui peut être ouvert et fermé en cliquant sur une icône.
+ *
+ * @returns {JSX.Element} Un élément JSX représentant l'en-tête avec navigation, adapté pour bureau et mobile.
+ */
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);

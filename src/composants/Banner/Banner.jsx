@@ -6,18 +6,18 @@ import soleil from '../../assets/banner/soleil.png'
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 
 
-
+/**
+ * Le composant `Banner` représente une bannière avec des effets de parallaxe appliqués à plusieurs éléments visuels,
+ * comme un fond, et des nuages.
+ *
+ * @returns {JSX.Element} Un élément JSX représentant la bannière avec des effets de parallaxe.
+ */
 export default function Banner() {
 
     return (
         <ParallaxProvider className="bg-parallax">
              <section className="banniere">
-                <Parallax
-                    translateY={[0, 0]} 
-                    className="sun-parallax"
-                >
-                    <img src={soleil} alt="Description de l'image" id="soleil"/>
-                </Parallax>
+                <img src={soleil} alt="Description de l'image" id="soleil"/>
                 <img className="bg-banner" src={fond} alt="Description de l'image" />      
                 <Parallax
                     translateX={[10, -20]} 

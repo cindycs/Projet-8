@@ -3,6 +3,14 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup'; 
 import './contact.css';
 
+/**
+ * Le composant `Contact` représente un formulaire de contact avec validation,
+ * utilisant la bibliothèque Formik pour la gestion de formulaire et Yup pour la validation.
+ * Il permet à l'utilisateur de saisir son nom, son email et un message, puis de soumettre le formulaire.
+ *
+ * @returns {JSX.Element} Un élément JSX représentant le formulaire de contact avec validation intégrée.
+ */
+
 export default function Contact() {
   // Définir le schéma de validation avec Yup
   const validationSchema = Yup.object({

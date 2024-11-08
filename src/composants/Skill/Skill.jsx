@@ -4,6 +4,13 @@ import frontEnd from "../../assets/competences/competences_front.png";
 import backEnd from "../../assets/competences/competences_back.png";
 import framework from "../../assets/competences/competences_framework.png";
 
+/**
+ * Le composant `Skill` affiche une liste de compétences techniques organisées en catégories (front-end, back-end, framework),
+ * ainsi qu'un lien vers une mind-map externe pour explorer les compétences en détail..
+ *
+ * @returns {JSX.Element} Un élément JSX représentant les compétences techniques et un lien vers la mind-map.
+ */
+
 export default function Skill() {
     return (
         <>
