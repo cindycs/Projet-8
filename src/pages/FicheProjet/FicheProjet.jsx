@@ -20,7 +20,7 @@ export default function FicheProjet() {
                     <div className="img-projet">
                         <img 
                             src={real.imagePath} 
-                            alt="" 
+                            alt={real.title} 
                         />
                     </div>
                     <div className="desc-projet">
@@ -29,6 +29,13 @@ export default function FicheProjet() {
                         <p>{real.desc}</p>
                         <h4>Difficultées rencontrées :</h4>
                         <p>{real.difficulte}</p>
+                        <ul className="list-badge">
+                            {real.badges.map((badge, index) => 
+                                <li className="badge" key={index}>
+                                    {badge}
+                                </li>
+                            )}
+                        </ul>
                         <Link to={real.link}> <button className="btn-nav">Lien vers le projet</button></Link>
                     </div> 
                 </section>
