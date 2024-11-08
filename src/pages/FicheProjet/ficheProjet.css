@@ -18,7 +18,7 @@
 }
 
 .btn-nav:hover {
-    background-color: #23607f;
+    background-color: var(--font-color);
 }
 
 .projet {
@@ -42,7 +42,7 @@
 }
 
 .desc-projet h3 {
-    color: #23607f;
+    color: var(--font-color);
     font-size: 2.5rem;
     letter-spacing: 0.1rem;
     font-variant: small-caps;

@@ -9,7 +9,7 @@
 
 .realisations h2 {
     text-align: center;
-    color: #23607f;
+    color: var(--font-color);
 }
 
 /* --------- A PROPOS ------- */

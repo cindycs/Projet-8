@@ -10,7 +10,7 @@
 .list-skills h3 {
     font-size: 1.9rem;
     font-weight: 500;
-    color: #23607f;
+    color: var(--font-color);
     letter-spacing: 0.2rem;
     font-variant: small-caps;
     text-align: center;
