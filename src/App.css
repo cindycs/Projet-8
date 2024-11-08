@@ -1,0 +1,14 @@
+.error-404 {
+    background-color: var(--bg1-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #23607f;
+}
+
+.error-404 h2 {
+    font-weight: 700;
+    font-size: 4em;
+}
