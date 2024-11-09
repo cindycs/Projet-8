@@ -49,7 +49,7 @@ export default function Header() {
                     </HashLink>
                 </div>
                 <div className="nav-mobile" onClick={toggleMenu}>
-                    <span className='trigger'><FontAwesomeIcon icon={faBars} /></span>
+                    <button className='trigger'><FontAwesomeIcon icon={faBars} /></button>
                     <div className={`nav-list-mobile ${isOpen ? "is-open" : ""}`}>
                         <HashLink 
                             smooth to="/Projet-8/#ancre-realisations"

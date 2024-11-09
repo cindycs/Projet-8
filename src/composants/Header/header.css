@@ -47,15 +47,19 @@ header {
     }
 
     .nav-mobile {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
 
     .trigger {
         display: block;
-        text-align: center;
+        font-size: 1.3rem;
         margin-bottom: 12px;
         cursor: pointer;
+        border: 0px;
+        background: none;
+        outline: inherit;
     }
 
     .nav-list-mobile.is-open {
