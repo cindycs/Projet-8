@@ -1,7 +1,7 @@
 [
 	{
 		"id": "1",
-		"title": "Création d'une API REST en Java avec Spring Boot",
+		"title": "Création d'une API REST en Java avc Spring Boot",
 		"desc": "L'ojectif de ce projet était d'apprendre les bases du JAVA et de SpringBoot en créant une API REST avec une base de donnée POSTGRES.",
 		"difficulte": "Un projet en complète autonomie, découverte de Docker, de JAVA ainsi que de SpringBoot. Un projet qui a demandé beaucoup d'apprentissage mais qui a été très formateur.",
 		"imagePath": "https://res.cloudinary.com/dqt60v6y1/image/upload/v1775563009/square-image_winedv.jpg",
