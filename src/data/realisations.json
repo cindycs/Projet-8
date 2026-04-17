@@ -19,7 +19,7 @@
 		"desc": "Réalisation du front-end d'un site internet avec comme contrainte l'utilisation de React",
 		"difficulte": "La difficulté majeure dans ce projet a été l'utilisation de React vue que c'était la première fois que je l'utilisais. L'apprentissage d'un framework est toujours source d'apprentissage mais aussi de contrainte pour mettre en place une idée qu'on a en tête. Les cours et les ressources sur internet ont été d'une grande aide pour apprendre la maitrise de React",
 		"imagePath": "https://res.cloudinary.com/dqt60v6y1/image/upload/v1730900561/kasa_x3oznj.jpg",
-        "link": "https://github.com/cindycs/projet5_kasa.git",
+        "link": "https://github.com/cindycs/projet5_kasa",
 		"badges": [
 			"React",
 			"HTML/CSS",
@@ -27,8 +27,22 @@
 			"Git"
 		]
     },
-    {
+	 {
 		"id": "3",
+		"title": "Réalisation d'un back-end en utilisant Node.js Express et MongoDB",
+		"desc": "Réalisation d'une API REST avec sécurisation de la base de données en NOSQL",
+		"difficulte": "Beaucoup de concept à comprendre : l'API REST avec la mise en place des contrôleurs, model et routes, mais aussi de la base de données en NOSQL. Et le plus important la sécurisation avec le hashage des données et l'utilisation des tokens",
+		"imagePath": "https://res.cloudinary.com/dqt60v6y1/image/upload/v1775639898/Capture_d_%C3%A9cran_2026-04-08_111043_ysmomf.png",
+        "link": "https://github.com/cindycs/Projet6",
+		"badges": [
+			"Node.js",
+			"Express",
+			"MongoDB",
+			"Git"
+		]
+    },
+    {
+		"id": "4",
 		"title": "Réalisation d'un front-end en html/css",
 		"desc": "Réalisation du site Booki en HTML/CSS en responsive design ",
 		"difficulte": "Projet de formation qui m'a remise sur le chemin de la programmation, sans grande difficulté si ce n'est l'utilisation du flex qui m'était alors inconnu avant ce projet.",
@@ -40,7 +54,7 @@
 		]
     },
     {
-		"id": "4",
+		"id": "5",
 		"title": "Transformation d'un site statique en dynamique avec Javascript",
 		"desc": "Projet qui demander à utiliser le javascript pour dynamiser le site internet qui était entièrement statique",
 		"difficulte": "Ce projet a nécessité d'approfondir mes connaissances en Javascript pour pouvoir mettre en place toutes les contraintes liées au projet. Un travail d'apprentissage a donc été nécessaire pour apprendre toutes les possibilités qu'offrait le Javascript dans le développement d'un front.",
@@ -53,7 +67,7 @@
 		]
     },
 	    {
-		"id": "5",
+		"id": "6",
 		"title": "Site vitrine avec Wordpress",
 		"desc": "Réalisation du site pour le gite Léopoldine, un site vitrine qui présente le gite, réalisé avec Wordpress ",
 		"difficulte": "La plus grosse difficulté sur ce site aura été de réussir à mettre en avant du mieux possible le contenu à travers les photos tout en donnant les informations importantes sur le gite ainsi que la possibilité de mettre la disponibilité du gite visible. La mise en place d'un calendrier qui soit simple d'utilisation pour sa propriétaire a aussi été une solution appréciée.",
@@ -64,7 +78,7 @@
 		]
     },
     {
-		"id": "6",
+		"id": "7",
 		"title": "Optimisation d'un site web",
 		"desc": "L'ojectif de ce projet était d'optimiser un site, que ce soit en terme d'accéssibilité ou encore de référencement",
 		"difficulte": "Un projet riche en connaissances pour apprendre à bien maitriser les structures de site, apprendre les bases du référencement naturel, dont j'ignorais encore beaucoup de choses. L'utilisation d'Opengraph ou encore des twitterCard, mais aussi des outils comme lighthouse ou Wave ont été des outils qui m'ont permis de mener à bien ce projet.",
@@ -78,7 +92,7 @@
 		]
     },
 	{
-		"id": "7",
+		"id": "8",
 		"title": "Site e-commerce avec Wordpress",
 		"desc": "Réalisation du site l'atelier Miewl, un site e-commerce qui présente les créations d'une couturière, réalisé avec Wordpress ",
 		"difficulte": "La réalisation de ce site a été un vrai challenge car je n'avais jamais fait de site e-commerce avec Wordpress. L'utilisation de Woocommerce a été nécessaire mais aussi la mise en place des systèmes de paiement (Paypal, paiement par carte...)",
