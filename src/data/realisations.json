@@ -3,7 +3,7 @@
 		"id": "1",
 		"title": "Site e-commerce avec Wordpress",
 		"desc": "Réalisation du site l'atelier Miewl, un site e-commerce qui présente les créations d'une couturière, réalisé avec Wordpress ",
-		"difficulte": "La réalisation de ce site a été un vrai challenge car je n'avais jamais fait de site e-commerce avec Wordpress. L'utilisation de Woocommerce a été nécessaire mais aussi la mise en place des systèmes de paiement (Paypal, paiement par carte...)",
+		"difficulte": "La réalistion de ce site a été un vrai challenge car je n'avais jamais fait de site e-commerce avec Wordpress. L'utilisation de Woocommerce a été nécessaire mais aussi la mise en place des systèmes de paiement (Paypal, paiement par carte...)",
         "imagePath": "https://res.cloudinary.com/dqt60v6y1/image/upload/v1730900562/latelier_miewl_chmlpn.jpg",
 		"link": "https://lateliermiewl.fr",
 		"badges": [
