@@ -1,7 +1,7 @@
 [
 	{
 		"id": "1",
-		"title": "Création d'une API REST en Java avc Spring Boot",
+		"title": "Création d'une API REST en Java avec Spring Boot",
 		"desc": "L'ojectif de ce projet était d'apprendre les bases du JAVA et de SpringBoot en créant une API REST avec une base de donnée POSTGRES.",
 		"difficulte": "Un projet en complète autonomie, découverte de Docker, de JAVA ainsi que de SpringBoot. Un projet qui a demandé beaucoup d'apprentissage mais qui a été très formateur.",
 		"imagePath": "https://res.cloudinary.com/dqt60v6y1/image/upload/v1775563009/square-image_winedv.jpg",
@@ -29,7 +29,7 @@
     },
 	 {
 		"id": "3",
-		"title": "Réalisation d'un back-end en utilisant Node.js Express et MongoDB",
+		"title": "Réalisation d'un back-end avec Node.js, Express et MongoDB",
 		"desc": "Réalisation d'une API REST avec sécurisation de la base de données en NOSQL",
 		"difficulte": "Beaucoup de concept à comprendre : l'API REST avec la mise en place des contrôleurs, model et routes, mais aussi de la base de données en NOSQL. Et le plus important la sécurisation avec le hashage des données et l'utilisation des tokens",
 		"imagePath": "https://res.cloudinary.com/dqt60v6y1/image/upload/v1775639898/Capture_d_%C3%A9cran_2026-04-08_111043_ysmomf.png",

@@ -28,7 +28,7 @@ export default function Index() {
                             </div>
                             <div className="description">
                                 <p>Bienvenue dans mon jardin où j’expose toutes mes réalisations qui ont poussé au fil du temps. Le fil qui m’animait autrefois dans mon métier de couturière est aujourd’hui une toile numérique où je tisse des sites web.</p>
-                                <p>Après mes études dans le web, je me suis tourné vers la couture, une passion que j’ai explorée pendant plusieurs années. Cette expérience m’a enrichie sur le plan créatif et artisanal. Plus récemment, j’ai décidé de revenir au web et ai suivi une formation avec OpenClassrooms pour actualiser mes compétences. Aujourd'hui, je suis prête à apporter une perspective originale et polyvalente à mes projets dans le web. </p>
+                                <p>Après mes études dans le web, je me suis tourné vers la couture, une passion que j’ai explorée pendant plusieurs années. Cette expérience m’a enrichie sur le plan créatif et artisanal. Plus récemment, j’ai décidé de revenir au web et ai suivi une formation avec OpenClassrooms pour actualiser mes compétences. Aujourd'hui, je cloture mon cursus avec une formation de concepteur developpeur informatique. </p>
                             </div>
                         </div>
                     </div>

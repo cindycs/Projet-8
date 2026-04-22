@@ -1,54 +1,165 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 /* ------ BANNIERE ------- */
 
-.banniere {
-    position: relative;
-    height : 90vh;
-    width: 100%;
-    background-color: var(--bg1-color);
+.banner {
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*Création du fond avec grille + dégradé */
+    background:
+
+        /* Grille verticale */
+        repeating-linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0.05) 0px,
+            rgba(255, 255, 255, 0.05) 1px,
+            transparent 1px,
+            transparent 50px
+        ),
+
+        /* Grille horizontale */
+        repeating-linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0.05) 0px,
+            rgba(255, 255, 255, 0.05) 1px,
+            transparent 1px,
+            transparent 50px
+        ),
+
+        /* Dégradé en dernier (fond) */
+        linear-gradient(135deg, #2c3a4b, #1f2a38);
 }
 
-.banniere img{
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-}
 
-.bg-parallax {
-    transform: translate(-50%, -50%);
-     width: 100%;
-}
-
-#cloud {
-    mix-blend-mode: screen;
-}
-
-.cloud-parallax {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+/* Fenetre */
+.window {
+    max-width: 900px;
+    background-color: #2b3645;
+    border-radius: 12px;
+    border: 1px solid var(--bg2-color);
     overflow: hidden;
+    opacity: 0;
+    transform: scale(0.95);
+    animation: appear 0.8s ease forwards;
 }
 
-.sun-parallax {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
-.brume-parallax {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.window p {
+    font-family: "fira Code", monospace;
 }
+
+/* Haut de la fenetre */
+.window-top {
+    display:flex;
+    align-items: center;
+    gap: 24px;
+    padding : 4px 16px;
+    border-bottom: 1px solid var(--bg2-color);
+}
+
+.dots {
+    display: flex;
+    gap: 8px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff7d75;
+}
+
+.orange {
+    background-color: #ffbd2e;
+}
+
+.blue {
+    background-color: var(--bg2-color);
+}
+
+.window-title {
+    color: var(--bg2-color);
+}
+
+/* Intérieur de la fenetre */
+.window-content {
+    padding : 32px;
+}
+
+.code span{
+    font-family: "Fira code", monospace;
+}
+
+.red-code {
+    color: #ff7d75;
+}
+
+.blue-code {
+    color: var(--bg2-color);
+}
+
+.green-code {
+    color: #3fb950; 
+}
+
+.white-code {
+    color : #fff;
+}
+
+.big-line {
+    display:block;
+    font-size: 48px;
+    padding-left: 24px;
+}
+
+.project-btn {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid var(--bg2-color);
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: var(--bg2-color);
+    cursor: pointer;
+    font-family: "Fira code", monospace;
+    margin-top: 12px;
+    transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+    background-color: var(--bg2-color);
+    color: var(--font-color);
+}
+
+/* flèche */
+.scroll-arrow {
+  position: absolute;
+  bottom: 20px;
+  font-size: 28px;
+  color: #8aa0b5;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(12px); }
+}
+
+/* ------- MEDIA QUERIES --------*/
 
 @media (max-width: 767.98px) {
-    .banniere {
+
+    .banner {
         display: none;
     }
 }

@@ -1,7 +1,6 @@
 /* ------- REALISATIONS ----- */
 
 .realisations {
-    background-color: var(--bg1-color);
     margin: 0px;
     display: flex;
     flex-direction: column;

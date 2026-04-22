@@ -1,6 +1,6 @@
 .list-skills{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .list-skills img {
@@ -15,6 +15,52 @@
     font-variant: small-caps;
     text-align: center;
 }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap : 15px;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 130px;
+  border : 1px solid #E5E7EB;
+  border-radius: 0.625rem;
+  transition: all 0.3s ease;
+}
+
+.icon-box:hover {
+   border : 1px solid var(--bg2-color);
+  /* léger lift */
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.icon-box:hover .icon-logo {
+  color: var(--bg2-color);
+  transform: scale(1.1);
+}
+
+.icon-box h4{
+  margin: 15px 0px 0px 0px;
+}
+
+.icon-logo {
+  color: #364153;
+  font-size: 40px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
 
 .mind-map{
     display: flex;
@@ -37,9 +83,6 @@
     transition: background-color 0.2s ease; 
 }
 
-.link-skills:hover {
-    background-color: var(--bg3-color);
-}
 
 @keyframes fadeInUp {
     from {
@@ -75,8 +118,7 @@
 @media (max-width: 1024px) {
 
     .list-skills{
-      flex-direction: column;
-      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
       gap: 8px;
     }
 }
@@ -84,10 +126,6 @@
 @media (max-width: 767.98px) {
 
     .list-skills{
-        justify-content: center;
+        grid-template-columns: 1fr;
     }
-    
-    .list-skills img {
-        height: 250px;
-    }  
 }

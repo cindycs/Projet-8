@@ -1,9 +1,6 @@
 import './banner.css';
-import fond from '../../assets/banner/fond.png';
-import nuage from '../../assets/banner/nuage.png';
-import brume from '../../assets/banner/brume.png';
-import soleil from '../../assets/banner/soleil.png'
-import { ParallaxProvider, Parallax } from "react-scroll-parallax";
+import { FaChevronDown } from "react-icons/fa6";
+import { HashLink } from 'react-router-hash-link';
 
 
 /**
@@ -15,24 +12,35 @@ import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 export default function Banner() {
 
     return (
-        <ParallaxProvider className="bg-parallax">
-             <section className="banniere">
-                <img src={soleil} alt="Description de l'image" id="soleil"/>
-                <img className="bg-banner" src={fond} alt="Description de l'image" />      
-                <Parallax
-                    translateX={[10, -20]} 
-                    className="cloud-parallax"
-                >
-                    <img src={nuage} alt="Description de l'image" id="cloud"/>
-                </Parallax>
-                <Parallax
-                    translateX={[5, -10]} 
-                    className="brume-parallax"
-                >
-                    <img src={brume} alt="Description de l'image" id="brume"/>
-                </Parallax>
-            </section> 
+
+        <section className='banner'>
+             <div className='window'>
+                    <div className='window-top'>
+                    <div className='dots'>
+                        <span className='dot red'></span>
+                        <span className='dot orange'></span>
+                        <span className='dot blue'></span>
+                    </div>
+                    <p className='window-title'> &gt;_  Developer.java</p>
+                    </div>
+                    <div className='window-content'>
+                        <p className='code'><span className='red-code'>String</span> <span className='blue-code'> greeting = </span><span className='green-code'>"Bonjour"</span><span className='blue-code'>;</span></p>
+                        <p className='code'><span className='red-code'>public class </span><span className='blue-code'>Developer &#123;</span> <br />
+                            <span className='big-line'><span className='red-code'>String </span><span className='white-code'>role = </span> <span className='blue-code'>"Développeur Full Stack"</span></span>< br/>
+                            <span className='blue-code'>&#125;</span>
+                        </p>
+                        <p className='comment white-code'> // Je transforme vos idées en applications modernes.</p>
+                        <HashLink
+                        smooth to="/Projet-8/#ancre-realisations"
+                        className="project-btn"
+                            >
+                        viewProjects()
+                        </HashLink>
+                    </div>
+             </div>
+             <div className='scroll-arrow'><FaChevronDown /></div>
+        </section> 
             
-        </ParallaxProvider>
+
     )
 }

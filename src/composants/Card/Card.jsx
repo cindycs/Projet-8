@@ -1,6 +1,8 @@
 import './card.css';
 import { Link } from "react-router-dom";
 import realisationsList from "../../data/realisations.json";
+import { IoChevronForwardOutline } from "react-icons/io5";
+
 
 /**
  * Le composant `Card` représente une section affichant une liste de réalisations sous forme de cartes.
@@ -15,17 +17,29 @@ export default function Card() {
             <div className="list-card">
                 {realisationsList.map((realisation) => (
                     <div className="card-real" key={ realisation.id }>
-                        <Link to={`/Projet-8/fiche-projet/${realisation.id}`}>
+                        
                             <img 
                                 src={realisation.imagePath} 
                                 alt="aperçu du site de l'atelier Miewl" 
                                 className='img-real' 
                             />
-                            <p>{realisation.title}</p>
-                        </Link>
+                            <div className="card-desc">
+                                <h3>{realisation.title}</h3>
+                                <p>{realisation.desc}</p>
+                                <ul className="badge-list">
+                                    {realisation.badges.map((badge, index) => (
+                                        <li key={index} className="badge-desc">
+                                        {badge}
+                                        </li>
+                                    ))}
+                                </ul>
+                                <Link className="card-link" to={`/Projet-8/fiche-projet/${realisation.id}`}>
+                                    <p>Plus d'info</p> 
+                                    <IoChevronForwardOutline />
+                                </Link>
+                            </div>
                     </div>
                 ))}
-                
             </div>
         </section>
     )
