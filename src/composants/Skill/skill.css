@@ -62,10 +62,10 @@
 }
 
 
-.mind-map{
-    display: flex;
-    justify-content: center;
-    margin : 32px 0px;
+.mind-map {
+  display: flex;
+  justify-content: center;
+  margin : 32px 0px;
 }
 
 .link-skills {
@@ -82,6 +82,11 @@
     cursor: pointer;
     transition: background-color 0.2s ease; 
 }
+
+.link-skills:hover {
+  background-color: #ffbd2e;
+}
+
 
 
 @keyframes fadeInUp {
@@ -105,13 +110,14 @@
     animation-delay: 0s; 
   }
   
-  .fade-in-up:nth-child(2) {
+  .fade-in-up:nth-child(2), .fade-in-up:nth-child(5) {
     animation-delay: 0.2s; 
   }
   
-  .fade-in-up:nth-child(3) {
+  .fade-in-up:nth-child(3), .fade-in-up:nth-child(6) {
     animation-delay: 0.4s; 
   }
+
   
 /* ------- MEDIA QUERIES --------*/
 
